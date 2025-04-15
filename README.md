@@ -15,23 +15,23 @@ Running this workflow requires the following software:
 ## Repository Structure
 
 .
-├── README.md # This documentation file\\
-├── .gitignore # Specifies files/directories for Git to ignore\\
-│\\
-├── pdb_file/ # Input PDB structures\\
-│ └── 2a5d_modeller.pdb # Starting structure used by scripts (post-MODELLER)\\
-│\\
-├── MD_Parameter/ # GROMACS input parameter (.mdp) files\\
-│ ├── 280K/\\
-│ ├── 300K/\\
-│ └── 320K/\\
-│\\
-├── Step1_Run_All_Simulations.sh # Step 1: Runs all 9 simulations & initial analysis\\
-├── Step2_Monitoring_Equilibration.R # Step 2: (Optional) Plots equilibration for one run\\
-├── Step3_Plot_Select_Rg.R # Step 3: Plots average Rg, calculates & selects most stable replicate\\
-├── Step4_Plot_Selected_Trajectories_Manual.R # Step 4: (Optional/Manual) Plots trajectories for manually chosen replicates\\
-├── Step5a_Prepare_Analysis_Files.sh # Step 5: Prepares files for final analysis (extracts, Hbond)\\
-└── Step6_Plot_Hbond_Distribution.R # Step 6: Plots H-bond distribution & stats\\
+├── README.md # This documentation file  
+├── .gitignore # Specifies files/directories for Git to ignore  
+│  
+├── pdb_file/ # Input PDB structures  
+│ └── 2a5d_modeller.pdb # Starting structure used by scripts (post-MODELLER)  
+│  
+├── MD_Parameter/ # GROMACS input parameter (.mdp) files  
+│ ├── 280K/  
+│ ├── 300K/  
+│ └── 320K/  
+│  
+├── Step1_Run_All_Simulations.sh # Step 1: Runs all 9 simulations & initial analysis  
+├── Step2_Monitoring_Equilibration.R # Step 2: (Optional) Plots equilibration for one run  
+├── Step3_Plot_Select_Rg.R # Step 3: Plots average Rg, calculates & selects most stable replicate  
+├── Step4_Plot_Selected_Trajectories_Manual.R # Step 4: (Optional/Manual) Plots trajectories for manually chosen replicates  
+├── Step5a_Prepare_Analysis_Files.sh # Step 5: Prepares files for final analysis (extracts, Hbond)  
+└── Step6_Plot_Hbond_Distribution.R # Step 6: Plots H-bond distribution & stats  
 
 
 ## Workflow
