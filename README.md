@@ -14,7 +14,7 @@ Running this workflow requires the following software:
 
 ## Repository Structure
 
-.
+. 
 ├── README.md # This documentation file  
 ├── .gitignore # Specifies files/directories for Git to ignore  
 │  
